@@ -1,4 +1,4 @@
-var reexportsDefaultExternal = (function (external) {
+var bundle = (function (external) {
 	'use strict';
 
 

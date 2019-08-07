@@ -1,8 +1,8 @@
-System.register('myBundle', ['external'], function (exports) {
+System.register('bundle', ['external'], function (exports) {
 	'use strict';
 	return {
 		setters: [function (module) {
-			exports('foo', module.foo);
+			exports('default', module.value);
 		}],
 		execute: function () {
 
